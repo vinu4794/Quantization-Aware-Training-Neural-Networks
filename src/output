@@ -1,0 +1,17 @@
+before
+OrderedDict([('0.weight_ih_l0', tensor([[ 0.5274],
+        [-0.7481],
+        [-0.8973],
+        [-0.8471]])), ('0.weight_hh_l0', tensor([[-0.3464],
+        [-0.6250],
+        [ 0.1979],
+        [ 0.4630]])), ('0.bias_ih_l0', tensor([ 0.0908,  0.1982, -0.7308, -0.4344])), ('0.bias_hh_l0', tensor([-0.2310,  0.3808, -0.4207, -0.9865])), ('1.weight', tensor([[0.0874]])), ('1.bias', tensor([0.1681]))])
+{'LSTM.weight_ih_l0': (tensor(0.0056), 160), 'LSTM.weight_hh_l0': (tensor(0.0043), 146), 'LSTM.bias_ih_l0': (tensor(0.0036), 200), 'LSTM.bias_hh_l0': (tensor(0.0054), 183), 'Linear.weight': (tensor(0.), 0), 'Linear.bias': (tensor(0.), 0)}
+after
+OrderedDict([('0.weight_ih_l0', tensor([[ 0.5252],
+        [-0.7487],
+        [-0.8939],
+        [-0.8492]])), ('0.weight_hh_l0', tensor([[-0.3456],
+        [-0.6230],
+        [ 0.1963],
+        [ 0.4651]])), ('0.bias_ih_l0', tensor([ 0.0911,  0.1967, -0.7286, -0.4335])), ('0.bias_hh_l0', tensor([-0.2306,  0.3807, -0.4182, -0.9812])), ('1.weight', tensor([[0.]])), ('1.bias', tensor([0.]))])
