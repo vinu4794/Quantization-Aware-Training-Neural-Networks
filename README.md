@@ -1,4 +1,4 @@
-# Quantization-HPML
+# Quantization-Aware-Training-Neural-Networks
 
 **Authors:** Harish Pal Chauhan, Vishnuram Hariharan
 
